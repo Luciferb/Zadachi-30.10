@@ -1,0 +1,15 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double x1,x2,y1,y2,D;
+	cout<<"Vuvedete koordinatite na purvata tochka"<<endl;
+	cin>>x1>>y1;
+	cout<<"Vuvedete koordinatite na vtorata tochka"<<endl;
+	cin>>x2>>y2;
+	D=sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
+	cout<<"Razstoqnieto mejdy dvete tochki e "<<D<<endl;
+	system("pause>nul");
+	return 0;
+}
