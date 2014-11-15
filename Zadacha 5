@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	char favoriteSeason[9];
+	cout<<"What is your favorite season?"<<endl;
+	cin>>favoriteSeason;
+	cout<<"Oh, "<<favoriteSeason<<" is my favorite season, too!"<<endl;
+	system("pause>nul");
+	return 0;
+}
