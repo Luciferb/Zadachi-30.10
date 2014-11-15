@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+	bool lovePrograming=true, loveLudogorec=true, programShouldHaveNoComments=false;
+	cout<<lovePrograming<<endl;
+	cout<<loveLudogorec<<endl;
+	cout<<programShouldHaveNoComments<<endl;
+	system("pause>nul");
+	return 0;
