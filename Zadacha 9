@@ -1,0 +1,22 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int myAge, currentYear, compareYear, B;
+	cout<<"Vuvedete godinite si"<<endl;
+	cin>>myAge;
+	cout<<"Vuvedete segashnata godina"<<endl;
+	cin>>currentYear;
+	cout<<"Vuvedete godinata za koqto iskate da razberete dali shte ste jiv"<<endl;
+	cin>>compareYear;
+	B=compareYear-currentYear+myAge;
+	if(B>110)
+	{
+		cout<<"YOU WILL BE DEAD!"<<endl;
+	}
+	else
+	cout<<"Vie shte ste na "<<B<<" godini"<<endl;
+		system("pause>nul");
+		return 0;
+}
