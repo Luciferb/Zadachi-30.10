@@ -1,0 +1,16 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int a;
+	double b,T;
+	cout<<"Vuvedete cenata na stokite"<<endl;
+	cin>>b;
+	cout<<"Vubedete broya na stokite"<<endl;
+	cin>>a;
+	T=a*b/5;
+	cout<<"DDS-to e "<<T<<endl;
+	system("pause>nul");
+	return 0;
+}
