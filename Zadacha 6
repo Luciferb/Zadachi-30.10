@@ -1,0 +1,18 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int a,b,P;
+	cout<<"Vuvedete stranite na pravougulnika."<<endl;
+	cin>>a>>b;
+	if(a>0 && b>0)
+	{
+		P=2*(a+b);
+		cout<<"p= "<<P<<endl;
+	}
+	else
+		cout<<"Vuvedeni sa otricatelni chisla za stranite"<<endl;
+	system("pause>nul");
+	return 0;
+}
